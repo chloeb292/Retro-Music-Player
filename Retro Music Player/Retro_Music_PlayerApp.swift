@@ -1,17 +1,26 @@
 //
-//  Retro_Music_PlayerApp.swift
-//  Retro Music Player
+//  Retro_MixtapeApp.swift
+//  Retro Mixtape
 //
-//  Created by Chloe Berry on 10/23/22.
+//  Created by Chloe Berry on 10/22/22.
 //
 
 import SwiftUI
+import Firebase
 
 @main
-struct Retro_Music_PlayerApp: App {
+struct Retro_MixtapeApp: App {
+    let data = OurData()
+    init(){
+        FirebaseApp.configure()
+        data.loadAlbums()
+        
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(data : data)
         }
     }
 }

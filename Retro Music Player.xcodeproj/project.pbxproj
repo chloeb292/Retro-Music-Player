@@ -11,14 +11,26 @@
 		104317C9290533C900F96D40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104317C8290533C900F96D40 /* ContentView.swift */; };
 		104317CB290533CB00F96D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104317CA290533CB00F96D40 /* Assets.xcassets */; };
 		104317CE290533CB00F96D40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104317CD290533CB00F96D40 /* Preview Assets.xcassets */; };
+		104317D52905346B00F96D40 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104317D42905346B00F96D40 /* Data.swift */; };
+		104317D7290534A100F96D40 /* Blur Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104317D6290534A100F96D40 /* Blur Effect.swift */; };
+		104317D9290534C400F96D40 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104317D8290534C400F96D40 /* PlayerView.swift */; };
+		104317DB290534F700F96D40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 104317DA290534F700F96D40 /* GoogleService-Info.plist */; };
+		1739365E64F3FBE720AFD5BD /* Pods_Retro_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2C730E2201C9F676CE547F /* Pods_Retro_Music_Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029E2534CBFB49193506C3CD /* Pods-Retro Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retro Music Player.debug.xcconfig"; path = "Target Support Files/Pods-Retro Music Player/Pods-Retro Music Player.debug.xcconfig"; sourceTree = "<group>"; };
 		104317C3290533C900F96D40 /* Retro Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104317C6290533C900F96D40 /* Retro_Music_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_Music_PlayerApp.swift; sourceTree = "<group>"; };
 		104317C8290533C900F96D40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		104317CA290533CB00F96D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104317CD290533CB00F96D40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		104317D42905346B00F96D40 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		104317D6290534A100F96D40 /* Blur Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Blur Effect.swift"; sourceTree = "<group>"; };
+		104317D8290534C400F96D40 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		104317DA290534F700F96D40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F2C730E2201C9F676CE547F /* Pods_Retro_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Retro_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D9FE0181B564945F78EBBF /* Pods-Retro Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Retro Music Player.release.xcconfig"; path = "Target Support Files/Pods-Retro Music Player/Pods-Retro Music Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1739365E64F3FBE720AFD5BD /* Pods_Retro_Music_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +50,8 @@
 			children = (
 				104317C5290533C900F96D40 /* Retro Music Player */,
 				104317C4290533C900F96D40 /* Products */,
+				FE0AA26810BFA7ABD9EF594B /* Pods */,
+				9951BC916654AD53BD5CDE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,8 +68,12 @@
 			children = (
 				104317C6290533C900F96D40 /* Retro_Music_PlayerApp.swift */,
 				104317C8290533C900F96D40 /* ContentView.swift */,
+				104317D42905346B00F96D40 /* Data.swift */,
 				104317CA290533CB00F96D40 /* Assets.xcassets */,
 				104317CC290533CB00F96D40 /* Preview Content */,
+				104317D6290534A100F96D40 /* Blur Effect.swift */,
+				104317D8290534C400F96D40 /* PlayerView.swift */,
+				104317DA290534F700F96D40 /* GoogleService-Info.plist */,
 			);
 			path = "Retro Music Player";
 			sourceTree = "<group>";
@@ -67,6 +86,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9951BC916654AD53BD5CDE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F2C730E2201C9F676CE547F /* Pods_Retro_Music_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE0AA26810BFA7ABD9EF594B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029E2534CBFB49193506C3CD /* Pods-Retro Music Player.debug.xcconfig */,
+				39D9FE0181B564945F78EBBF /* Pods-Retro Music Player.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 104317D1290533CB00F96D40 /* Build configuration list for PBXNativeTarget "Retro Music Player" */;
 			buildPhases = (
+				495B7F718BE88529BEFC4A54 /* [CP] Check Pods Manifest.lock */,
 				104317BF290533C900F96D40 /* Sources */,
 				104317C0290533C900F96D40 /* Frameworks */,
 				104317C1290533C900F96D40 /* Resources */,
+				502D8C3015FD839828384328 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +165,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				104317CE290533CB00F96D40 /* Preview Assets.xcassets in Resources */,
+				104317DB290534F700F96D40 /* GoogleService-Info.plist in Resources */,
 				104317CB290533CB00F96D40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		495B7F718BE88529BEFC4A54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Retro Music Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502D8C3015FD839828384328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retro Music Player/Pods-Retro Music Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Retro Music Player/Pods-Retro Music Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Retro Music Player/Pods-Retro Music Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		104317BF290533C900F96D40 /* Sources */ = {
@@ -138,6 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				104317C9290533C900F96D40 /* ContentView.swift in Sources */,
+				104317D52905346B00F96D40 /* Data.swift in Sources */,
+				104317D7290534A100F96D40 /* Blur Effect.swift in Sources */,
+				104317D9290534C400F96D40 /* PlayerView.swift in Sources */,
 				104317C7290533C900F96D40 /* Retro_Music_PlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +346,7 @@
 		};
 		104317D2290533CB00F96D40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029E2534CBFB49193506C3CD /* Pods-Retro Music Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +376,7 @@
 		};
 		104317D3290533CB00F96D40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D9FE0181B564945F78EBBF /* Pods-Retro Music Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
